@@ -47,6 +47,7 @@ const Dashboard = (data) => {
 
     useEffect(() => {
         // console.log(data.data.status)
+        // ffff
         if (data.data.status == '1') {
             getNumCountAdmin()
         } else if (data.data.status == '2') {
